@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title>Contact form</title>
+</head>
+
+<body>
+    <h1>Contact form</h1>
+
+    <form action="/contact">
+        <p><label for="first_name">Enter your first name: </label>
+            <input type="text" placeholder="First name" id="first_name" name="first_name"></input>
+        </p>
+        <p>
+            <label for="last_name">Enter your last name:</label>
+            <input type="text" placeholder="Last name" id="last_name" name="last_name"></input>
+        </p>
+        <p>
+            <label for="email">Enter your email: </label>
+            <input type="email" placeholder="Email" id="email" name="email"></input>
+        </p>
+        <p>
+            <label for="phone">Enter your phone number: </label>
+            <input type="tel" placeholder="Phone number: " id="phone" name="phone"></input>
+        </p>
+        <p>
+            <label for="message">Please enter your message: </label>
+            <input type="text" placeholder="Your message: " id="message" name="message"></input>
+        </p>
+        <p>
+            <input type="checkbox" name="can_we_contact" id="contact">
+            <label for="contact">Can we contact you back?</label>
+        </p>
+        <p>
+            <label for="yes">YES</label>
+            <input type="radio" name="agree" id="yes" value="yes">
+            <label for="maybe">MAYBE</label>
+            <input type="radio" name="agree" id="maybe" value="maybe">
+            <label for="no">NO</label>
+            <input type="radio" name="agree" id="no" value="no">
+        </p>
+        <p>
+            <label for="frukt">Velg en frukt: </label>
+            <select name="frukt" id="frukt">
+                <option value="eple">Eple</option>
+                <option value="banan">Banan</option>
+                <option value="appelsin">Appelsin</option>
+                <option value="mandarin">Mandarin</option>
+                <option value="druer">Druer</option>
+            </select>
+        </p>
+        <p>
+            <button>Send</button>
+            <button type="button">Reset the form</button>
+        </p>
+    </form>
+    <form action="https://www.google.com/search">
+        <p>
+            <input type="text" name="q" placeholder="Search">
+            <button>Search Google</button>
+        </p>
+    </form>
+
+</body>
+
+</html>
