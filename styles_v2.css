@@ -41,3 +41,7 @@ div>span {
     background-color: rgb(235, 230, 172);
     color: rgb(203, 42, 42);
 }
+
+input[id="passwd"] {
+    color: red;
+}
