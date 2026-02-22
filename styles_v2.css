@@ -15,3 +15,20 @@ h2,
 h3 {
     color: darkslateblue;
 }
+
+button {
+    background-color: blue;
+    color: red;
+}
+
+#login {
+    color: green;
+    background-color: #1d1d1d;
+}
+
+.tag {
+    background-color: #e63946;
+    color: #f1faee;
+    font-size: 14px;
+
+}
