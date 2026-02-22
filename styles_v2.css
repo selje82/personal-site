@@ -26,13 +26,18 @@ button {
     background-color: #1d1d1d;
 }
 
-.tag {
+/* .tag {
     background-color: #e63946;
     color: #f1faee;
     font-size: 14px;
 
-}
+} */
 
 button+button {
     background-color: aqua;
+}
+
+div>span {
+    background-color: rgb(235, 230, 172);
+    color: rgb(203, 42, 42);
 }
