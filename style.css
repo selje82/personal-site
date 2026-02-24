@@ -43,3 +43,7 @@ footer {
 a::first-letter {
     font-size: 30px;
 }
+
+p::selection {
+    background-color: #fcbf49;
+}
