@@ -16,6 +16,10 @@ li {
     margin-bottom: 6px;
 }
 
+li:nth-of-type(2n) {
+    background-color: darkgray;
+}
+
 footer {
     color: rgb(233, 232, 232);
 }
