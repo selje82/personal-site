@@ -8,6 +8,8 @@ body {
 
 a {
     color: lightblue;
+    display: inline-block;
+    text-decoration: none;
 }
 
 li {
@@ -32,4 +34,8 @@ footer {
 
 .list_header::first-letter {
     font-size: 40px;
+}
+
+a::first-letter {
+    font-size: 30px;
 }
