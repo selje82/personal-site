@@ -29,3 +29,7 @@ footer {
     font-size: 1.2rem;
     font-weight: 700;
 }
+
+.list_header::first-letter {
+    font-size: 40px;
+}
