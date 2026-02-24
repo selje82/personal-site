@@ -7,9 +7,9 @@ h1 {
     font-family: 'Segoe UI', 'Arial black';
 }
 
-p {
+/* p {
     line-height: 2;
-}
+} */
 
 h2,
 h3 {
@@ -26,17 +26,18 @@ button {
     background-color: #1d1d1d;
 }
 
+/* Class selector */
 /* .tag {
     background-color: #e63946;
     color: #f1faee;
     font-size: 14px;
 
 } */
-
-button+button {
+/* Direct selector */
+/* button+button {
     background-color: aqua;
 }
-
+ */
 div>span {
     background-color: rgb(235, 230, 172);
     color: rgb(203, 42, 42);
@@ -44,4 +45,13 @@ div>span {
 
 input[id="passwd"] {
     color: red;
+}
+
+button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+p:nth-of-type(2n) {
+    background-color: #dfe8dc;
 }
