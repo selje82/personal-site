@@ -5,6 +5,13 @@ body {
     padding: 20px;
 
 }
+h1 {
+    background-color: #023047;
+    padding-left: 40px; 
+    padding-top: 50px;
+    width: 460px;
+    color: #e5e5e5;  
+}
 
 a {
     color: #283618;
@@ -49,12 +56,26 @@ div {
 }
 #one {
     background-color: #dda15e;
-    border-width: 5px;
+    border-width: 3px;
     border-color: #023e8a;
     border-style: solid;
-    box-sizing: border-box; 
+    border-radius: 2%;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
 
 }
 #two {
     background-color: #bc6c25;
+    border: 3px dashed #31572c;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+#three {
+    background-color: #ffb3c6;
+    border: 3px solid #0a9396;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top; 20px;
 }
