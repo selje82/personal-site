@@ -54,28 +54,35 @@ div {
     height: 300px;
     width: 500px;
 }
+#button {
+    height: 50px;
+    width: 500px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
 #one {
     background-color: #dda15e;
     border-width: 3px;
     border-color: #023e8a;
     border-style: solid;
     border-radius: 2%;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 20px;
-
+    padding: 20px 30px 0 30px;
+    margin-bottom: 20px;
 }
 #two {
     background-color: #bc6c25;
     border: 3px dashed #31572c;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 20px;
+    margin: 20px 0 20px;
 }
 #three {
     background-color: #ffb3c6;
     border: 3px solid #0a9396;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top; 20px;
+    padding: 20px 30px 30px;
+    margin-top: 30px;
+}
+
+button {
+    padding: 2px 10px;
 }
