@@ -1,13 +1,13 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(64, 64, 64);
-    color: white;
+    background-color: #fefae0;
+    color: black;
     padding: 20px;
 
 }
 
 a {
-    color: lightblue;
+    color: #283618;
     display: inline-block;
     text-decoration: none;
 }
@@ -21,29 +21,40 @@ li:nth-of-type(2n) {
 }
 
 footer {
-    color: rgb(233, 232, 232);
+    color: #003049;
 }
 
 .news {
-    color: rgb(248, 70, 70);
+    color: #780000;
     font-size: 1.2rem;
     font-weight: 700;
 }
 
 .list_header {
-    color: green;
+    color: #780000;
     font-size: 1.2rem;
     font-weight: 700;
 }
 
 .list_header::first-letter {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 a::first-letter {
     font-size: 30px;
 }
+div {
+    height: 300px;
+    width: 500px;
+}
+#one {
+    background-color: #dda15e;
+    border-width: 5px;
+    border-color: #023e8a;
+    border-style: solid;
+    box-sizing: border-box; 
 
-p::selection {
-    background-color: #fcbf49;
+}
+#two {
+    background-color: #bc6c25;
 }
