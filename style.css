@@ -4,6 +4,12 @@ body {
     color: black;
     padding: 20px;
 
+section {
+    height: 800px;
+    width: 800px;
+    background-color: #778da9;
+}
+
 }
 h1 {
     background-color: #023047;
